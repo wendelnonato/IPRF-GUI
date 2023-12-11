@@ -38,7 +38,7 @@ def calcular_imposto(salario_bruto, num_dependentes):
     }
 
 
-psg.theme('reds')
+psg.theme('black')
 
 layout = [
     [psg.Text('Informe o salário bruto: '), psg.Input(key='salario_bruto')],
